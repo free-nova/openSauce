@@ -175,6 +175,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * Nova Service Provider
+         */
+        App\Providers\NovaServiceProvider::class,
+
     ],
 
     /*
